@@ -1,0 +1,15 @@
+{
+  "name": "Home-Assistant-MQTT-Test-Device",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "nodemon main.js"
+  },
+  "dependencies": {
+    "async": "latest",
+    "mqtt": "latest"
+  },
+  "devDependencies": {
+    "nodemon": "latest"
+  }
+}
